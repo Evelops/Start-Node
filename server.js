@@ -31,6 +31,11 @@ app.get('/about', (req, res) => {
     res.render('about.html');
 }
 );
+app.get('/test', (req, res) => {
+    // res.send('hello world');
+    res.render('test.html');
+}
+);
 
 app.get('/test',(req, res) =>{
     res.send('get  test');

@@ -19,7 +19,7 @@ app.engine('html',require('ejs').renderFile);
 */
 
 // '/' => 루트 경로를 메인에 띄우는 역할. 메인 접속시 나오는 화면을 정의할 때 '/'로 정의한다. 
-//test
+//test2
 app.get('/', (req, res) => {
     // res.send('hello world');
     res.render('index.html');
